@@ -1,0 +1,29 @@
+{
+  "name": "yolaas",
+  "version": "1.0.0",
+  "description": "Microservice for object detection using tiny YOLO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrm8488/yolaas.git"
+  },
+  "keywords": [
+    "ML",
+    "YOLO",
+    "tfjs"
+  ],
+  "author": "Manuel Romero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrm8488/yolaas/issues"
+  },
+  "homepage": "https://github.com/mrm8488/yolaas#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.11.1",
+    "jsdom": "^11.10.0",
+    "jsdom-global": "^3.0.2"
+  }
+}
